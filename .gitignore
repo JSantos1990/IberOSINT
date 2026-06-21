@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files
+.env
+
+# Results generated during investigations
+Results/*
+!Results/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
