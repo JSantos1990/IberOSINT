@@ -1,6 +1,26 @@
-# IberOSINT
+Bienvenido al canal oficial de IberOSINT.
 
-Plataforma OSINT basada en Ubuntu orientada a facilitar la instalación, automatización y visualización de herramientas de inteligencia en fuentes abiertas.
+IberOSINT es una plataforma orientada a la investigación en fuentes abiertas (OSINT), la ciberseguridad y la inteligencia digital, desarrollada con el objetivo de ofrecer herramientas, recursos y contenidos prácticos para investigadores, analistas y profesionales del sector.
+
+En este canal encontrarás:
+
+• Desarrollo y evolución de la plataforma IberOSINT.
+
+• Investigación OSINT y técnicas de análisis.
+
+• Inteligencia de amenazas (Threat Intelligence).
+
+• Ciberseguridad defensiva.
+
+• Herramientas y automatización con IA.
+
+• Tutoriales, laboratorios y demostraciones prácticas.
+
+• Análisis de incidentes y casos reales.
+
+IberOSINT apuesta por una ciberseguridad responsable, el aprendizaje continuo y el uso ético de las técnicas de investigación digital.
+
+Precisión antes que velocidad. Evidencia antes que suposición. Utilidad antes que complejidad.
 
 ## Objetivos
 
