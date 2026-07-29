@@ -415,7 +415,7 @@ Actualmente el proyecto integra múltiples aplicaciones desarrolladas específic
 
 # Licencia
 
-Copyright © 2026 Jou Santos Aveiro.
+Copyright © 2026 Jorge Santos
 
 Todos los derechos reservados.
 
