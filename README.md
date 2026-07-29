@@ -431,7 +431,7 @@ Para más información consulte el archivo **LICENSE** incluido en este reposito
 
 # Autor
 
-## Jou Santos Aveiro
+## Jorge Santos
 
 Desarrollador de IberOSINT.
 
@@ -457,6 +457,6 @@ Unified Open Source Intelligence Platform
 
 <br><br>
 
-© 2026 Jou Santos Aveiro · All Rights Reserved
+© 2026 Jorge Santos · All Rights Reserved
 
 </p>
