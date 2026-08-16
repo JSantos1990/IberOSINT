@@ -6,7 +6,8 @@
 
 <p align="center">
 <b>Unified Open Source Intelligence Platform</b><br>
-A modular ecosystem for Open Source Intelligence, cybersecurity investigations and AI-assisted analysis.
+Plataforma Unificada de Inteligencia de Fuentes Abiertas
+Un ecosistema modular para inteligencia de fuentes abiertas, investigaciones de ciberseguridad y análisis asistido por IA.
 </p>
 
 <p align="center">
