@@ -5,8 +5,7 @@
 <h1 align="center">IberOSINT</h1>
 
 <p align="center">
-<b>Unified Open Source Intelligence Platform</b><br>
-Plataforma Unificada de Inteligencia de Fuentes Abiertas
+<b>Plataforma Unificada de Inteligencia de Fuentes Abiertas</b><br>
 Un ecosistema modular para inteligencia de fuentes abiertas, investigaciones de ciberseguridad y análisis asistido por IA.
 </p>
 
