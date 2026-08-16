@@ -358,19 +358,6 @@ Actualmente el proyecto integra múltiples aplicaciones desarrolladas específic
 
 ---
 
-# Roadmap
-
-## Versión 1.0
-
-- [x] Launcher gráfico
-- [x] Arquitectura modular
-- [x] IberoFirefox
-- [x] IberoTOR
-- [x] IberoTOOLS
-- [x] Integración de Inteligencia Artificial
-- [x] Lince
-- [x] Sistema de tutoriales
-
 ## Próximas mejoras
 
 - [ ] Marketplace de herramientas
