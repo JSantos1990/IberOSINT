@@ -356,19 +356,6 @@ The project currently consists of multiple custom-developed applications working
 
 ---
 
-# Roadmap
-
-## Version 1.0
-
-- [x] Graphical Launcher
-- [x] Modular architecture
-- [x] IberoFirefox
-- [x] IberoTOR
-- [x] IberoTOOLS
-- [x] Artificial Intelligence integration
-- [x] Lince
-- [x] Tutorials module
-
 ## Future Development
 
 - [ ] Tool Marketplace
