@@ -78,6 +78,7 @@ Entre sus principales características destacan:
 - Plataforma modular desarrollada en Python.
 - Interfaz gráfica propia.
 - Centro OSINT integrado.
+- Apartado de noticias actualizadas de las fuentes 'Incibe' y 'MuySeguridad'
 - Navegación especializada mediante Firefox y Tor Browser.
 - Integración con modelos de Inteligencia Artificial.
 - Automatización de procesos.
