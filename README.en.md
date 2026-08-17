@@ -78,7 +78,6 @@ Key features include:
 - Modular Python-based architecture.
 - Dedicated graphical interface.
 - Integrated OSINT workspace.
-- Latest News Section from INCIBE and MuySeguridad.
 - Specialized Firefox and Tor Browser environments.
 - Artificial Intelligence integration.
 - Workflow automation.
@@ -134,6 +133,7 @@ Its primary objective is to simplify the investigative workflow by providing a u
 
 - Python-based graphical interface.
 - Centralized access to all ecosystem modules.
+- Latest News Section from INCIBE and MuySeguridad.
 - Modular and scalable architecture.
 - Intuitive organization of tools.
 - Integration with external applications.
