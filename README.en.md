@@ -152,7 +152,7 @@ IberoFirefox is a dedicated OSINT workspace built around Firefox, providing fast
 
 Instead of searching for investigation tools across multiple websites, analysts can access a centralized homepage where resources are grouped into logical categories for quick navigation.
 
-The homepage has been developed entirely using HTML, CSS and JavaScript and operates locally without relying on external services.
+The homepage has been developed entirely using HTML, CSS and JavaScript.
 
 ### Main Features
 
@@ -162,7 +162,6 @@ The homepage has been developed entirely using HTML, CSS and JavaScript and oper
 - Favorites management.
 - Recently used resources.
 - Investigation-oriented interface.
-- Fully offline operation.
 
 <p align="center">
 <img src="docs/images/iberofirefox.png" alt="IberoFirefox" width="95%">
