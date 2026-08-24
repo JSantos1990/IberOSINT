@@ -162,7 +162,6 @@ La página principal ha sido desarrollada completamente en HTML, CSS y JavaScrip
 - Gestión de favoritos.
 - Historial de herramientas utilizadas.
 - Diseño optimizado para investigación.
-- Funcionamiento completamente offline.
 
 <p align="center">
 <img src="docs/images/iberofirefox.png" alt="IberoFirefox" width="95%">
