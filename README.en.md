@@ -148,7 +148,7 @@ Its primary objective is to simplify the investigative workflow by providing a u
 
 # IberoFirefox
 
-IberoFirefox is a dedicated OSINT workspace built around Firefox, providing fast access to hundreds of carefully organized intelligence resources.
+IberoFirefox is a dedicated OSINT workspace built around Firefox, providing fast access to more than one hundred of carefully organized intelligence resources.
 
 Instead of searching for investigation tools across multiple websites, analysts can access a centralized homepage where resources are grouped into logical categories for quick navigation.
 
