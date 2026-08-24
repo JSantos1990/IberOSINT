@@ -148,7 +148,7 @@ Su diseño busca reducir la complejidad del entorno de trabajo y ofrecer una exp
 
 # IberoFirefox
 
-IberoFirefox es un centro de inteligencia OSINT construido sobre Firefox que reúne cientos de recursos clasificados por categorías.
+IberoFirefox es un centro de inteligencia OSINT construido sobre Firefox que reúne más de cien recursos clasificados por categorías.
 
 Su objetivo es eliminar el tiempo invertido buscando herramientas en Internet y ofrecer un punto de acceso centralizado para investigaciones de ciberseguridad, análisis de amenazas, reconocimiento e inteligencia.
 
