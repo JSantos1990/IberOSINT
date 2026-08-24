@@ -326,25 +326,167 @@ Para ejecutar IberOSINT se recomienda el siguiente entorno:
 
 # Instalación
 
-Clonar el repositorio:
+## Máquina virtual oficial de IberOSINT
+
+IberOSINT se distribuye como una máquina virtual preconfigurada en formato `.OVA`, preparada para ejecutarse directamente en Oracle VirtualBox.
+
+Esta es la forma recomendada de utilizar el ecosistema completo, ya que la máquina virtual incluye el entorno Ubuntu configurado y las principales aplicaciones y herramientas integradas en el proyecto.
+
+La máquina virtual incluye:
+
+- IberOSINT.
+- Lince.
+- IberoTOR.
+- Ubuntu preconfigurado.
+- Firefox como entorno principal de investigación OSINT.
+- Tor Browser para investigaciones que requieran navegación a través de la red Tor.
+- Herramientas y recursos integrados en el ecosistema IberOSINT.
+- Accesos directos configurados para las principales aplicaciones.
+
+Debido al tamaño de la máquina virtual, el archivo original `IberOSINT.ova` se distribuye dividido en 15 partes.
+
+## 1. Requisitos
+
+Antes de comenzar, es necesario tener instalado:
+
+- Oracle VirtualBox.
+- Espacio suficiente en disco para descargar y reconstruir la máquina virtual.
+- Conexión a Internet para descargar las 15 partes de la versión.
+
+Oracle VirtualBox puede descargarse desde su sitio web oficial:
 
 ```bash
-git clone https://github.com/JSantos1990/IberOSINT.git
+https://www.virtualbox.org/
 ```
 
-Acceder al directorio del proyecto:
+## 2. Descargar IberOSINT
+
+Acceda a la sección **Releases** de este repositorio y descargue todos los archivos correspondientes a la versión de IberOSINT que desea utilizar.
+
+Para la versión `v1.0.0`, deben descargarse las 15 partes:
+
+```text
+IberOSINT.ova.part001
+IberOSINT.ova.part002
+IberOSINT.ova.part003
+IberOSINT.ova.part004
+IberOSINT.ova.part005
+IberOSINT.ova.part006
+IberOSINT.ova.part007
+IberOSINT.ova.part008
+IberOSINT.ova.part009
+IberOSINT.ova.part010
+IberOSINT.ova.part011
+IberOSINT.ova.part012
+IberOSINT.ova.part013
+IberOSINT.ova.part014
+IberOSINT.ova.part015
+````
+
+> **Importante:** es obligatorio descargar las 15 partes y conservarlas juntas en la misma carpeta. No será posible reconstruir correctamente el archivo `.OVA` si falta alguna de ellas.
+
+## 3. Reconstruir el archivo IberOSINT.ova
+
+Una vez descargadas las 15 partes, es necesario unirlas para recuperar el archivo original:
+
+```text
+IberOSINT.ova
+```
+
+### Windows
+
+Abra PowerShell y sitúese en la carpeta donde haya descargado las 15 partes.
+
+Ejecute el siguiente comando:
+
+```powershell
+Get-Content .\IberOSINT.ova.part* -Encoding Byte -ReadCount 0 | Set-Content .\IberOSINT.ova -Encoding Byte
+```
+
+Cuando el proceso termine, se habrá generado el archivo:
+
+```text
+IberOSINT.ova
+```
+
+### Linux
+
+Abra una terminal dentro de la carpeta que contiene las 15 partes y ejecute:
 
 ```bash
-cd IberOSINT
+cat IberOSINT.ova.part* > IberOSINT.ova
 ```
 
-Ejecutar la aplicación:
+Cuando el comando termine, se habrá generado el archivo:
 
-```bash
-python app.py
+```text
+IberOSINT.ova
 ```
 
-> **Nota:** Algunas funcionalidades requieren herramientas externas previamente instaladas o configuradas.
+## 4. Importar la máquina virtual en VirtualBox
+
+Abra Oracle VirtualBox y seleccione:
+
+```text
+File → Import Appliance
+```
+
+Seleccione el archivo:
+
+```text
+IberOSINT.ova
+```
+
+Continúe con el asistente de importación y revise la configuración de la máquina virtual antes de finalizar.
+
+Se recomienda prestar atención especialmente a:
+
+* Memoria RAM asignada.
+* Número de procesadores.
+* Ubicación de almacenamiento de la máquina virtual.
+
+Una vez completada la importación, la máquina aparecerá en Oracle VirtualBox como:
+
+```text
+IberOSINT
+```
+
+## 5. Iniciar IberOSINT
+
+Seleccione la máquina virtual en Oracle VirtualBox y pulse:
+
+```text
+Start
+```
+
+Una vez iniciado Ubuntu, podrá utilizar los accesos directos incluidos en el escritorio y en el menú de aplicaciones.
+
+El entorno incluye accesos directos para:
+
+* IberOSINT.
+* Lince.
+* IberoTOR.
+
+De esta forma, el usuario puede comenzar a utilizar el ecosistema sin necesidad de instalar manualmente Ubuntu, configurar Python, instalar dependencias o preparar individualmente las aplicaciones integradas.
+
+## Importante
+
+La máquina virtual ha sido preparada como un entorno de trabajo completo y listo para utilizar.
+
+No obstante, dependiendo del equipo anfitrión, puede ser recomendable ajustar posteriormente la cantidad de memoria RAM o procesadores asignados desde la configuración de Oracle VirtualBox.
+
+El tamaño del disco virtual también puede ampliarse en el futuro si el usuario necesita más espacio para almacenar herramientas, evidencias, documentos o resultados de sus investigaciones.
+
+---
+
+# Instalación de aplicaciones individuales
+
+Además de la máquina virtual completa, algunas aplicaciones del ecosistema IberOSINT también están disponibles de forma independiente en sus respectivos repositorios:
+
+* **Lince:** [https://github.com/JSantos1990/IberOSINT-Lince](https://github.com/JSantos1990/IberOSINT-Lince)
+* **IberoTOR:** [https://github.com/JSantos1990/Iberosint-Tor](https://github.com/JSantos1990/Iberosint-Tor)
+
+Cada repositorio incluye sus propias instrucciones de instalación y configuración.
 
 ---
 
