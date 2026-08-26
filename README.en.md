@@ -332,9 +332,8 @@ This is the recommended way to use the complete ecosystem, as the virtual machin
 
 The virtual machine includes:
 
-- IberOSINT.
+- IberOSINT environment.
 - Lince.
-- IberoTOR.
 - Pre-configured Ubuntu environment.
 - Firefox as the main OSINT investigation workspace.
 - Tor Browser for investigations requiring access through the Tor network.
