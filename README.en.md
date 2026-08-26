@@ -390,7 +390,7 @@ After downloading all 15 parts, they must be joined together to recreate the ori
 IberOSINT.ova
 ```
 
-### Windows
+### Option A: Windows
 
 Open PowerShell and navigate to the folder containing all 15 parts.
 
@@ -406,7 +406,7 @@ Once the process is complete, the following file will be created:
 IberOSINT.ova
 ```
 
-### Linux
+### Option B: Linux
 
 Open a terminal inside the folder containing all 15 parts and run:
 
