@@ -392,7 +392,7 @@ Una vez descargadas las 15 partes, es necesario unirlas para recuperar el archiv
 IberOSINT.ova
 ```
 
-### Windows
+### Opción A: Windows
 
 Abra PowerShell y sitúese en la carpeta donde haya descargado las 15 partes.
 
@@ -408,7 +408,7 @@ Cuando el proceso termine, se habrá generado el archivo:
 IberOSINT.ova
 ```
 
-### Linux
+### Opción B: Linux
 
 Abra una terminal dentro de la carpeta que contiene las 15 partes y ejecute:
 
