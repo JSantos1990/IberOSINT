@@ -462,7 +462,7 @@ Una vez iniciado Ubuntu, podrá utilizar los accesos directos incluidos en el es
 
 El entorno incluye accesos directos para:
 
-* IberOSINT.
+* Entorno IberOSINT.
 * Lince.
 * IberoTOR.
 
