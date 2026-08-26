@@ -460,7 +460,7 @@ Once Ubuntu has started, you can use the shortcuts included on the desktop and i
 
 The environment includes shortcuts for:
 
-* IberOSINT.
+* IberOSINT environment.
 * Lince.
 * IberoTOR.
 
