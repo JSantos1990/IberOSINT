@@ -334,9 +334,8 @@ Esta es la forma recomendada de utilizar el ecosistema completo, ya que la máqu
 
 La máquina virtual incluye:
 
-- IberOSINT.
+- Entorno IberOSINT.
 - Lince.
-- IberoTOR.
 - Ubuntu preconfigurado.
 - Firefox como entorno principal de investigación OSINT.
 - Tor Browser para investigaciones que requieran navegación a través de la red Tor.
