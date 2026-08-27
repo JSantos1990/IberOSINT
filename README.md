@@ -215,6 +215,12 @@ La arquitectura está preparada para incorporar nuevas herramientas conforme evo
 
 *Gestión unificada de herramientas del ecosistema.*
 
+<p align="center">
+<img src="docs/images/naabu_example.png" alt="IberoTOOLS" width="95%">
+</p>
+
+*Ejemplo de uso de IberoTOOLS con la herramienta naabu.*
+
 ---
 
 # IberOSINT AI
