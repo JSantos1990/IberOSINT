@@ -456,7 +456,19 @@ Una vez completada la importación, la máquina aparecerá en Oracle VirtualBox 
 IberOSINT
 ```
 
-## 5. Iniciar IberOSINT
+## 5. Comprobación de recursos del sistema
+
+Después de importar el archivo `IberOSINT.ova` en Oracle VirtualBox y arrancar la máquina virtual por primera vez, es recomendable verificar que la configuración predeterminada es adecuada para el equipo anfitrión. Para ello, revise los siguientes parámetros en **Settings**:
+
+- **Memoria RAM** — Confirme que la cantidad asignada no excede la disponible en el sistema anfitrión.
+- **Procesadores (CPU)** — Ajuste el número de núcleos asignados para evitar una carga excesiva en el equipo principal.
+- **Espacio en disco** — Verifique que el almacenamiento asignado a la máquina virtual es suficiente para el uso previsto.
+- **Aceleración** — Compruebe que las opciones de virtualización por hardware (VT‑x/AMD‑V) están habilitadas si el equipo lo soporta.
+
+Estas comprobaciones garantizan que la máquina virtual funcione correctamente y que el rendimiento del sistema anfitrión no se vea afectado.
+
+
+## 6. Iniciar IberOSINT
 
 Seleccione la máquina virtual en Oracle VirtualBox y pulse:
 
