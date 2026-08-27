@@ -454,7 +454,19 @@ Once the import process is complete, the virtual machine will appear in Oracle V
 IberOSINT
 ```
 
-## 5. Start IberOSINT
+## 5. System Resource Verification
+
+After importing the `IberOSINT.ova` file into Oracle VirtualBox and starting the virtual machine for the first time, it is recommended to verify that the default configuration is suitable for the host system. To do so, review the following parameters in **Settings**:
+
+- **Memory (RAM)** — Ensure that the assigned memory does not exceed what is available on the host system.
+- **Processors (CPU)** — Adjust the number of allocated cores to avoid excessive load on the host machine.
+- **Disk Space** — Confirm that the virtual disk provides sufficient storage for the intended use.
+- **Acceleration** — Check that hardware virtualization options (VT‑x/AMD‑V) are enabled if supported by the host system.
+
+These checks ensure that the virtual machine operates correctly and that the performance of the host system is not negatively affected.
+
+
+## 6. Start IberOSINT
 
 Select the virtual machine in Oracle VirtualBox and click:
 
