@@ -213,6 +213,12 @@ Its modular design makes it easy to incorporate additional applications as the e
 
 *Unified management of integrated investigation tools.*
 
+<p align="center">
+<img src="docs/images/naabu_example.png" alt="IberoTOOLS" width="95%">
+</p>
+
+*Example of using IberoTOOLS with the naabu tool.*
+
 ---
 
 # IberOSINT AI
