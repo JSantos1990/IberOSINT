@@ -400,12 +400,12 @@ IberOSINT.ova
 
 ### Opción A: Windows
 
-Abra PowerShell y sitúese en la carpeta donde haya descargado las 15 partes.
+Abra CMD y sitúese en la carpeta donde haya descargado las 15 partes.
 
 Ejecute el siguiente comando:
 
-```powershell
-Get-Content .\IberOSINT.ova.part* -Encoding Byte -ReadCount 0 | Set-Content .\IberOSINT.ova -Encoding Byte
+```CMD
+copy /b IberOSINT.ova.part* IberOSINT.ova
 ```
 
 Cuando el proceso termine, se habrá generado el archivo:
