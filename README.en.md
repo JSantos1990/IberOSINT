@@ -398,12 +398,12 @@ IberOSINT.ova
 
 ### Option A: Windows
 
-Open PowerShell and navigate to the folder containing all 15 parts.
+Open CMD and navigate to the folder containing all 15 parts.
 
 Run the following command:
 
-```powershell
-Get-Content .\IberOSINT.ova.part* -Encoding Byte -ReadCount 0 | Set-Content .\IberOSINT.ova -Encoding Byte
+```CMD
+copy /b IberOSINT.ova.part* IberOSINT.ova
 ```
 
 Once the process is complete, the following file will be created:
