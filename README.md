@@ -467,7 +467,6 @@ Después de importar el archivo `IberOSINT.ova` en Oracle VirtualBox y arrancar 
 
 Estas comprobaciones garantizan que la máquina virtual funcione correctamente y que el rendimiento del sistema anfitrión no se vea afectado.
 
-
 ## 6. Iniciar IberOSINT
 
 Seleccione la máquina virtual en Oracle VirtualBox y pulse:
@@ -476,15 +475,23 @@ Seleccione la máquina virtual en Oracle VirtualBox y pulse:
 Start
 ```
 
-Una vez iniciado Ubuntu, podrá utilizar los accesos directos incluidos en el escritorio y en el menú de aplicaciones.
+Una vez iniciado Ubuntu, utilice las siguientes credenciales para acceder al escritorio:
+
+| Campo | Valor |
+|-------|-------|
+| **Usuario** | `IberOSINT` |
+| **Contraseña** | `123456` |
+
+Una vez iniciada la sesión, podrá utilizar los accesos directos incluidos en el escritorio y en el menú de aplicaciones.
 
 El entorno incluye accesos directos para:
 
-* Entorno IberOSINT.
-* Lince.
-* IberoTOR.
+- **IberOSINT** (Launcher principal)
+- **Lince**
+- **IberoTOR**
 
 De esta forma, el usuario puede comenzar a utilizar el ecosistema sin necesidad de instalar manualmente Ubuntu, configurar Python, instalar dependencias o preparar individualmente las aplicaciones integradas.
+
 
 ## Importante
 
