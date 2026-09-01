@@ -474,15 +474,22 @@ Select the virtual machine in Oracle VirtualBox and click:
 Start
 ```
 
-Once Ubuntu has started, you can use the shortcuts included on the desktop and in the application menu.
+Once Ubuntu has started, use the following credentials to log in to the desktop:
+
+| Field | Value |
+|-------|-------|
+| **Username** | `IberOSINT` |
+| **Password** | `123456` |
+
+Once logged in, you can use the shortcuts included on the desktop and in the applications menu.
 
 The environment includes shortcuts for:
 
-* IberOSINT environment.
-* Lince.
-* IberoTOR.
+- **IberOSINT** (main Launcher)
+- **Lince**
+- **IberoTOR**
 
-This allows users to start using the ecosystem without manually installing Ubuntu, configuring Python, installing dependencies or preparing each integrated application individually.
+This allows the user to start using the ecosystem without manually installing Ubuntu, configuring Python, installing dependencies, or preparing the integrated applications individually.
 
 ## Important
 
